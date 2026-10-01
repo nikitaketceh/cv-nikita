@@ -1,0 +1,155 @@
+/* ===== WARNA PINK SOFT ===== */
+body {
+    margin: 0;
+    padding: 30px 15px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #fff0f5, #ffe4ec);
+    color: #5c4a52;
+    line-height: 1.6;
+}
+
+/* ===== KARTU CV ===== */
+.cv-card {
+    max-width: 700px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 35px 30px;
+    box-shadow: 0 8px 25px rgba(255, 182, 213, 0.45);
+}
+
+/* ===== BAGIAN ATAS ===== */
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px dashed #ffb6d1;
+    margin-bottom: 25px;
+}
+
+.foto-profil {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ffb6d1, #ff87ab);
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: 5px 0;
+    font-size: 26px;
+    color: #d14d7e;
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    margin: 0;
+    color: #b08a99;
+    font-style: italic;
+}
+
+.badge {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 6px 18px;
+    background: #ffe4ec;
+    color: #d14d7e;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* ===== JUDUL SEKSI ===== */
+h2 {
+    color: #d14d7e;
+    font-size: 19px;
+    border-left: 4px solid #ffb6d1;
+    padding-left: 10px;
+    margin-bottom: 12px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+/* ===== DATA PRIBADI ===== */
+.info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info li {
+    padding: 7px 0;
+    border-bottom: 1px solid #ffe4ec;
+    display: flex;
+}
+
+.info b {
+    width: 140px;
+    color: #d14d7e;
+    flex-shrink: 0;
+}
+
+/* ===== PARAGRAF ===== */
+.paragraf {
+    text-align: justify;
+    margin: 0;
+}
+
+/* ===== DUA KOLOM (keahlian & minat) ===== */
+.dua-kolom {
+    display: flex;
+    gap: 30px;
+}
+
+.dua-kolom section {
+    flex: 1;
+}
+
+/* ===== LIST PINK ===== */
+.list-pink {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.list-pink li {
+    padding: 4px 0;
+}
+
+.list-pink li::marker {
+    color: #ff87ab;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding-top: 18px;
+    border-top: 2px dashed #ffb6d1;
+    color: #d14d7e;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* ===== RESPONSIVE (tampilan HP) ===== */
+@media (max-width: 600px) {
+    .dua-kolom {
+        flex-direction: column;
+        gap: 0;
+    }
+    .info li {
+        flex-direction: column;
+        gap: 2px;
+    }
+    .info b {
+        width: auto;
+    }
+    h1 {
+        font-size: 21px;
+    }
+}
