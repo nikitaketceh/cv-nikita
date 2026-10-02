@@ -26,18 +26,15 @@ header {
     margin-bottom: 25px;
 }
 
+/* ===== FOTO PROFIL BULAT ===== */
 .foto-profil {
-    width: 90px;
-    height: 90px;
+    width: 120px;
+    height: 120px;
     margin: 0 auto 15px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #ffb6d1, #ff87ab);
-    color: #ffffff;
-    font-size: 40px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    object-fit: cover;
+    border: 4px solid #ffb6d1;
+    display: block;
 }
 
 h1 {
@@ -102,7 +99,7 @@ section {
     margin: 0;
 }
 
-/* ===== DUA KOLOM (keahlian & minat) ===== */
+/* ===== DUA KOLOM ===== */
 .dua-kolom {
     display: flex;
     gap: 30px;
@@ -136,7 +133,7 @@ footer {
     letter-spacing: 1px;
 }
 
-/* ===== RESPONSIVE (tampilan HP) ===== */
+/* ===== RESPONSIVE (HP) ===== */
 @media (max-width: 600px) {
     .dua-kolom {
         flex-direction: column;
